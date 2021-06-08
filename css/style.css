@@ -7,7 +7,7 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background: #ffffff url(../image/fundo.png) repeat-x;
+  background: #f5f5f5 url(../image/fundo.png) repeat-x;
 }
 
 body #container {
@@ -49,11 +49,7 @@ ul {
 #topo ul {
   background: #b10333;
   margin-top: 30px;
-  float: left;
-}
-
-#topo ul li {
-  float: left;
+  display: flex;
 }
 
 #topo ul a {
@@ -90,23 +86,21 @@ body#fotos #navegacao a.fotos {
 #conteudo {
   margin-top: 65px;
   background: #f5f5f5;
+  display: flex;
 }
 
 .lateral {
   width: 180px;
-  float: left;
   margin: 0 0 20px -750px;
 }
 
 .primario {
   width: 270px;
-  float: left;
   margin: 0 0 20px 195px;
 }
 
 .uma-coluna .primario {
   width: 750px;
-  float: left;
   margin: 0 0 20px 0;
 }
 
@@ -116,7 +110,6 @@ body#fotos #navegacao a.fotos {
 
 .secundario {
   width: 270px;
-  float: left;
   margin: 0 0 20px 15px;
 }
 
@@ -206,11 +199,9 @@ h3 {
 #lista-noticias li {
   padding: 2px;
   border-bottom: 1px solid #ccc;
-  height: 65px;
 }
 
 #lista-noticias li a img {
-  float: left;
   margin: 5px;
 }
 
